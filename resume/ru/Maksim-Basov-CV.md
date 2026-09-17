@@ -8,7 +8,7 @@ Telegram: @SmokenSpanish · https://t.me/SmokenSpanish
 
 Frontend-разработчик с 5+ годами коммерческого опыта. Сейчас основная работа — HTML5 playable ads в Kourion Studio (Кипр, удалённо).
 
-Делаю 2D playable ads на Cocos Creator (JavaScript/TypeScript): геймплей, взаимодействие, UI, анимация, ассеты, производительность и HTML5-билды под рекламные сети. Черновик playable обычно собираю примерно за два дня.
+Делаю HTML5 playable ads на Cocos Creator (JavaScript/TypeScript): в основном 2D, также 3D (Scoopy). Геймплей, взаимодействие, UI, анимация, ассеты, производительность и HTML5-билды под рекламные сети. Черновик playable обычно собираю примерно за два дня.
 
 Раньше — коммерческие веб-приложения на React и Vue: адаптивный UI, клиентская логика, REST API, рефакторинг и поддержка.
 
@@ -16,7 +16,7 @@ AI-assisted development — часть рабочего процесса (фор
 
 ## Навыки
 
-**Playable ads:** Cocos Creator, HTML5, 2D playables, размер билда, производительность, загрузка ассетов, рекламные сети (Moloco, Facebook, AppLovin, Unity, ironSource)
+**Playable ads:** Cocos Creator, HTML5, 2D и 3D playables, размер билда, производительность, загрузка ассетов, рекламные сети (Moloco, Facebook, AppLovin, Unity, ironSource)
 
 **Frontend:** JavaScript, TypeScript, React, Vue, HTML, CSS/SCSS
 
@@ -30,7 +30,7 @@ AI-assisted development — часть рабочего процесса (фор
 Кипр · удалённо  
 сентябрь 2025 — настоящее время
 
-- Самостоятельная реализация коммерческих 2D HTML5 playable ads в Cocos Creator.
+- Самостоятельная реализация коммерческих HTML5 playable ads в Cocos Creator — в основном 2D, также 3D (Scoopy).
 - Геймплей, взаимодействие, UI, анимация, работа с ассетами, производительность и packed HTML-билды для рекламных сетей.
 - Ограничения playable ads: размер билда, HTML5, загрузка ассетов, требования сетей.
 - Черновик playable обычно собираю примерно за два дня, затем довожу до production build.
@@ -42,7 +42,9 @@ walnut.team · продуктовая компания
 
 - Клиентская разработка и поддержка веб-приложений в продуктовой команде (backend, дизайн, разбор задач).
 - Реализация функциональности по ТЗ, интерактивный UI, REST API, багфиксы, оптимизация, рефакторинг.
-- Публичные проекты: https://food.vkusvill.ru/ и https://prazdnik.vkusvill.ru/
+- Публичные проекты:
+  - VkusVill Food: https://food.vkusvill.ru/
+  - VkusVill Prazdnik: https://prazdnik.vkusvill.ru/
 
 ### Frontend-разработчик — TheMembers
 themembers.com  

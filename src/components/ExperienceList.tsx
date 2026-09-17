@@ -18,6 +18,15 @@ export function ExperienceList() {
                 <li key={bullet}>{bullet}</li>
               ))}
             </ul>
+            {item.links ? (
+              <p className={styles.links}>
+                {item.links.map((link) => (
+                  <a key={link.href} href={link.href} target="_blank" rel="noreferrer">
+                    {link.label}
+                  </a>
+                ))}
+              </p>
+            ) : null}
           </div>
         </article>
       ))}

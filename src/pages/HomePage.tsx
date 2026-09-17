@@ -18,8 +18,8 @@ export function HomePage() {
           <p className="kicker">Selected playables</p>
           <h2 className="section__title">Production HTML5 builds, playable here</h2>
           <p className="section__lede">
-            Packed Cocos Creator playables served as HTML. Click Play to load the build. No source archives,
-            no download button — the demo runs in the page.
+            Packed Cocos Creator playables served as HTML — mostly 2D, with one 3D build (Scoopy) highlighted below.
+            Click Play to load the demo. No source archives, no download button.
           </p>
           {playables.map((playable) => (
             <PlayableCard key={playable.slug} playable={playable} />
@@ -32,7 +32,7 @@ export function HomePage() {
           <h2 className="section__title">Frontend craft, playable constraints</h2>
           <p className="section__lede">
             {site.studio} is a small Cyprus-based studio. I implement playables end to end: from prototype to
-            a network-ready HTML5 build.
+            a network-ready HTML5 build, in 2D and 3D.
           </p>
           <Process />
         </div>
@@ -43,7 +43,7 @@ export function HomePage() {
           <h2 className="section__title">Commercial web before playables</h2>
           <p className="section__lede">
             Five-plus years of product frontend — React, Vue, HTML/CSS, client logic, and production support.
-            VkusVill is the public reference from Walnut Team.
+            Live references from Walnut Team:
           </p>
           <FrontendWork />
         </div>

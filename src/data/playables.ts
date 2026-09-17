@@ -1,4 +1,5 @@
 export type PlayableOrientation = 'portrait' | 'landscape';
+export type PlayableDimension = '2d' | '3d';
 
 export interface Playable {
   slug: string;
@@ -9,6 +10,8 @@ export interface Playable {
   role: string;
   buildSizeMb: number;
   orientation: PlayableOrientation;
+  dimension: PlayableDimension;
+  featured?: boolean;
 }
 
 export const playables: Playable[] = [
@@ -22,6 +25,7 @@ export const playables: Playable[] = [
     role: 'End-to-end implementation',
     buildSizeMb: 4.74,
     orientation: 'portrait',
+    dimension: '2d',
   },
   {
     slug: 'ashwick-manor',
@@ -33,6 +37,7 @@ export const playables: Playable[] = [
     role: 'End-to-end implementation',
     buildSizeMb: 4.85,
     orientation: 'portrait',
+    dimension: '2d',
   },
   {
     slug: 'five-alibis',
@@ -44,6 +49,7 @@ export const playables: Playable[] = [
     role: 'End-to-end implementation',
     buildSizeMb: 2.69,
     orientation: 'portrait',
+    dimension: '2d',
   },
   {
     slug: 'pegfall',
@@ -55,6 +61,7 @@ export const playables: Playable[] = [
     role: 'End-to-end implementation',
     buildSizeMb: 2.98,
     orientation: 'portrait',
+    dimension: '2d',
   },
   {
     slug: 'houndhouse',
@@ -66,17 +73,20 @@ export const playables: Playable[] = [
     role: 'End-to-end implementation',
     buildSizeMb: 4.26,
     orientation: 'portrait',
+    dimension: '2d',
   },
   {
-    slug: 'cage-ante',
-    title: 'Cage Ante',
+    slug: 'scoopy',
+    title: 'Scoopy',
     summary:
-      'Character-driven dice playable: roll interaction, scene animation, UI scaling, and a staged endcard with packshot and store CTA.',
-    mechanics: ['Dice interaction', 'Character animation', 'Endcard / packshot', 'Responsive UI'],
-    technology: ['Cocos Creator 3.8', 'JavaScript', 'HTML5'],
+      '3D HTML5 playable: character-driven dice interaction in a 3D scene, animation, UI scaling, and a staged endcard with packshot and store CTA.',
+    mechanics: ['3D scene', 'Dice interaction', 'Character animation', 'Endcard / packshot'],
+    technology: ['Cocos Creator 3.8', 'JavaScript', 'HTML5', '3D'],
     role: 'End-to-end implementation',
     buildSizeMb: 4.93,
     orientation: 'portrait',
+    dimension: '3d',
+    featured: true,
   },
 ];
 

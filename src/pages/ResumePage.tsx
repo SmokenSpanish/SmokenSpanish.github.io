@@ -27,8 +27,9 @@ export function ResumePage() {
             at {site.studio} ({site.studioLocation}).
           </p>
           <p>
-            I implement 2D playables in Cocos Creator: gameplay, interaction, UI, animation, asset handling,
-            performance, and network-ready HTML5 builds. Previously: production web apps in React and Vue.
+            I implement HTML5 playables in Cocos Creator: primarily 2D, and 3D as well (Scoopy). Gameplay,
+            interaction, UI, animation, asset handling, performance, and network-ready builds. Previously:
+            production web apps in React and Vue.
           </p>
           <p>
             AI-assisted development is part of the workflow. Software development is the core skill.
@@ -38,7 +39,7 @@ export function ResumePage() {
         <section className={styles.block}>
           <h2>Skills</h2>
           <p>
-            Playable ads: Cocos Creator, HTML5, 2D playables, build size, performance, asset loading, ad
+            Playable ads: Cocos Creator, HTML5, 2D and 3D playables, build size, performance, asset loading, ad
             networks.
           </p>
           <p>Frontend: JavaScript, TypeScript, React, Vue, HTML, CSS/SCSS.</p>
@@ -61,6 +62,15 @@ export function ResumePage() {
                   <li key={bullet}>{bullet}</li>
                 ))}
               </ul>
+              {item.links ? (
+                <p className={styles.links}>
+                  {item.links.map((link) => (
+                    <a key={link.href} href={link.href} target="_blank" rel="noreferrer">
+                      {link.label}
+                    </a>
+                  ))}
+                </p>
+              ) : null}
             </article>
           ))}
         </section>

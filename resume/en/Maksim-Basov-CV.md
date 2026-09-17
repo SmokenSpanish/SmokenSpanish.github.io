@@ -8,7 +8,7 @@ Email: maksimbasov1992@mail.ru
 
 Frontend developer with 5+ years of commercial experience, currently focused on HTML5 playable ads at Kourion Studio (Cyprus, remote).
 
-I implement 2D playable ads in Cocos Creator (JavaScript/TypeScript): gameplay, interaction, UI, animation, asset handling, performance, and network-ready HTML5 builds. Draft playables typically come together in about two days.
+I implement HTML5 playable ads in Cocos Creator (JavaScript/TypeScript): primarily 2D, and 3D as well (Scoopy). Gameplay, interaction, UI, animation, asset handling, performance, and network-ready HTML5 builds. Draft playables typically come together in about two days.
 
 Previously: production web applications in React and Vue — responsive UI, client logic, REST APIs, refactoring, and support.
 
@@ -16,7 +16,7 @@ AI-assisted development is part of the production workflow (task spec, faster im
 
 ## Skills
 
-**Playable ads:** Cocos Creator, HTML5, 2D playables, build size, performance, asset loading, ad networks (Moloco, Facebook, AppLovin, Unity, ironSource)
+**Playable ads:** Cocos Creator, HTML5, 2D and 3D playables, build size, performance, asset loading, ad networks (Moloco, Facebook, AppLovin, Unity, ironSource)
 
 **Frontend:** JavaScript, TypeScript, React, Vue, HTML, CSS/SCSS
 
@@ -30,7 +30,7 @@ AI-assisted development is part of the production workflow (task spec, faster im
 Cyprus · Remote  
 September 2025 – Present
 
-- Independent implementation of commercial 2D HTML5 playable ads in Cocos Creator.
+- Independent implementation of commercial HTML5 playable ads in Cocos Creator — primarily 2D, including 3D (Scoopy).
 - Gameplay, interaction, UI, animation, asset handling, performance, and packed HTML builds for ad networks.
 - Working within playable constraints: build size, HTML5, asset loading, and network requirements.
 - Draft playables typically assembled in about two days, then iterated to a production build.
@@ -42,7 +42,9 @@ May 2022 – August 2025
 
 - Client-side development and support of web applications in a product team (backend, design, task breakdown).
 - Feature implementation from spec, interactive UI, REST API integration, bugfixing, optimization, and refactoring.
-- Public work: https://food.vkusvill.ru/ and https://prazdnik.vkusvill.ru/
+- Public work:
+  - VkusVill Food: https://food.vkusvill.ru/
+  - VkusVill Prazdnik: https://prazdnik.vkusvill.ru/
 
 ### Frontend Developer — TheMembers
 themembers.com  

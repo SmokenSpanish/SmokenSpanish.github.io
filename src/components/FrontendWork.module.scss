@@ -19,8 +19,16 @@
   margin-bottom: 8px;
 }
 
-.card p {
+.card p.note {
   color: var(--text-muted);
+  margin-bottom: 12px;
+}
+
+.url {
+  color: var(--accent-strong);
+  font-size: 0.92rem;
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
 }
 
 @media (max-width: 720px) {

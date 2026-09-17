@@ -7,7 +7,8 @@ export function FrontendWork() {
       {frontendProjects.map((project) => (
         <a key={project.href} className={styles.card} href={project.href} target="_blank" rel="noreferrer">
           <h3>{project.title}</h3>
-          <p>{project.note}</p>
+          <p className={styles.note}>{project.note}</p>
+          <span className={styles.url}>{project.urlLabel}</span>
         </a>
       ))}
     </div>

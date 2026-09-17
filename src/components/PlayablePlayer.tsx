@@ -37,7 +37,10 @@ export function PlayablePlayer({
               <span className={styles.overlayTitle} id={titleId}>
                 {playable.title}
               </span>
-              <span className={styles.overlayHint}>Play in the browser · {playable.buildSizeMb} MB HTML5 build</span>
+              <span className={styles.overlayHint}>
+                {playable.dimension === '3d' ? '3D HTML5 playable' : 'Play in the browser'} · {playable.buildSizeMb} MB
+                build
+              </span>
               <span className="btn btn--primary">Play</span>
             </button>
           )}

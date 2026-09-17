@@ -5,6 +5,7 @@ export interface ExperienceItem {
   meta?: string;
   role: string;
   bullets: string[];
+  links?: { label: string; href: string }[];
 }
 
 export const experience: ExperienceItem[] = [
@@ -15,7 +16,7 @@ export const experience: ExperienceItem[] = [
     meta: 'Cyprus · Remote',
     role: 'Playable Ads Developer',
     bullets: [
-      'Independent implementation of commercial 2D HTML5 playable ads in Cocos Creator.',
+      'Independent implementation of commercial HTML5 playable ads in Cocos Creator — primarily 2D, including 3D (Scoopy).',
       'Gameplay, interaction, UI, animation, asset handling, performance, and packed HTML builds for ad networks.',
       'Working within playable constraints: build size, HTML5, asset loading, and network requirements (Moloco, Facebook, AppLovin, Unity, ironSource).',
       'Draft playables typically assembled in about two days, then iterated to a production build.',
@@ -31,7 +32,10 @@ export const experience: ExperienceItem[] = [
     bullets: [
       'Client-side development and support of web applications in a product team (backend, design, task breakdown).',
       'Feature implementation from spec, interactive UI, REST API integration, bugfixing, optimization, and refactoring.',
-      'Public work: food.vkusvill.ru and prazdnik.vkusvill.ru.',
+    ],
+    links: [
+      { label: 'VkusVill Food', href: 'https://food.vkusvill.ru/' },
+      { label: 'VkusVill Prazdnik', href: 'https://prazdnik.vkusvill.ru/' },
     ],
   },
   {
@@ -60,11 +64,13 @@ export const frontendProjects = [
   {
     title: 'VkusVill Food',
     href: 'https://food.vkusvill.ru/',
+    urlLabel: 'food.vkusvill.ru',
     note: 'Commercial web project at Walnut Team.',
   },
   {
     title: 'VkusVill Prazdnik',
     href: 'https://prazdnik.vkusvill.ru/',
+    urlLabel: 'prazdnik.vkusvill.ru',
     note: 'Commercial web project at Walnut Team.',
   },
 ] as const;

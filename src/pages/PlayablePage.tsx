@@ -23,7 +23,8 @@ export function PlayablePage() {
             </Link>
             <h1 className="section__title">{playable.title}</h1>
             <p className={styles.meta}>
-              {playable.technology.join(' · ')} · {playable.buildSizeMb} MB · {playable.role}
+              {playable.dimension === '3d' ? '3D' : '2D'} · {playable.technology.join(' · ')} · {playable.buildSizeMb} MB
+              · {playable.role}
             </p>
           </div>
         </div>

@@ -62,3 +62,14 @@
   font-size: 0.9rem;
   margin: 4px 0 8px;
 }
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 16px;
+  margin: 10px 0 0;
+}
+
+.links a {
+  color: var(--accent-strong);
+}
