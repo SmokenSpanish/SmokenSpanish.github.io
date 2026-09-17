@@ -15,6 +15,7 @@ export default defineConfig({
     strictPort: true,
   },
   build: {
+    assetsDir: 'static',
     assetsInlineLimit: 4096,
   },
 });
