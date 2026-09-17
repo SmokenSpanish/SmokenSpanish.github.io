@@ -1,0 +1,77 @@
+import { Hero } from '@/components/Hero';
+import { PlayableCard } from '@/components/PlayableCard';
+import { Process } from '@/components/Process';
+import { FrontendWork } from '@/components/FrontendWork';
+import { ExperienceList } from '@/components/ExperienceList';
+import { playables } from '@/data/playables';
+import { site } from '@/data/site';
+import { useDocumentTitle } from '@/hooks/useDocumentTitle';
+import styles from './HomePage.module.scss';
+
+export function HomePage() {
+  useDocumentTitle('Maksim Basov — Frontend / Creative Developer');
+  return (
+    <main id="main">
+      <Hero />
+      <section className="section" id="playables">
+        <div className="container">
+          <p className="kicker">Selected playables</p>
+          <h2 className="section__title">Production HTML5 builds, playable here</h2>
+          <p className="section__lede">
+            Packed Cocos Creator playables served as HTML. Click Play to load the build. No source archives,
+            no download button — the demo runs in the page.
+          </p>
+          {playables.map((playable) => (
+            <PlayableCard key={playable.slug} playable={playable} />
+          ))}
+        </div>
+      </section>
+      <section className="section" id="approach">
+        <div className="container">
+          <p className="kicker">How I work</p>
+          <h2 className="section__title">Frontend craft, playable constraints</h2>
+          <p className="section__lede">
+            {site.studio} is a small Cyprus-based studio. I implement playables end to end: from prototype to
+            a network-ready HTML5 build.
+          </p>
+          <Process />
+        </div>
+      </section>
+      <section className="section" id="work">
+        <div className="container">
+          <p className="kicker">Frontend background</p>
+          <h2 className="section__title">Commercial web before playables</h2>
+          <p className="section__lede">
+            Five-plus years of product frontend — React, Vue, HTML/CSS, client logic, and production support.
+            VkusVill is the public reference from Walnut Team.
+          </p>
+          <FrontendWork />
+        </div>
+      </section>
+      <section className="section" id="experience">
+        <div className="container">
+          <p className="kicker">Experience</p>
+          <h2 className="section__title">Recent roles</h2>
+          <ExperienceList />
+        </div>
+      </section>
+      <section className="section" id="contact">
+        <div className="container">
+          <p className="kicker">Contact</p>
+          <h2 className="section__title">Telegram or email</h2>
+          <p className="section__lede">
+            Best way to reach me is Telegram. Email also works. I do not take calls.
+          </p>
+          <div className={styles.contact}>
+            <a className="btn btn--primary" href={site.telegramUrl}>
+              {site.telegramHandle}
+            </a>
+            <a className="btn btn--ghost" href={`mailto:${site.email}`}>
+              {site.email}
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+  );
+}

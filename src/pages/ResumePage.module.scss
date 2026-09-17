@@ -1,0 +1,64 @@
+.page {
+  padding: 48px 0 88px;
+}
+
+.doc {
+  max-width: 46rem;
+}
+
+.header {
+  margin-bottom: 32px;
+}
+
+.name {
+  font-family: var(--font-serif);
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  letter-spacing: -0.03em;
+}
+
+.role {
+  color: var(--text-muted);
+  margin: 8px 0 16px;
+}
+
+.contacts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 18px;
+}
+
+.contacts a {
+  color: var(--text);
+}
+
+.block {
+  padding: 22px 0;
+  border-top: 1px solid var(--line);
+}
+
+.block h2 {
+  font-size: 0.78rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 12px;
+}
+
+.block p + p,
+.block ul {
+  color: var(--text-muted);
+}
+
+.job {
+  margin-bottom: 22px;
+}
+
+.job h3 {
+  font-size: 1.05rem;
+}
+
+.job .when {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin: 4px 0 8px;
+}

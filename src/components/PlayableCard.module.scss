@@ -1,0 +1,47 @@
+.card {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  gap: 28px;
+  padding: 28px 0;
+  border-top: 1px solid var(--line);
+}
+
+.copy h3 {
+  font-family: var(--font-serif);
+  font-size: 1.7rem;
+  font-weight: 550;
+  letter-spacing: -0.02em;
+  margin: 8px 0 12px;
+}
+
+.summary {
+  color: var(--text-muted);
+  margin-bottom: 16px;
+}
+
+.meta {
+  display: grid;
+  gap: 8px;
+  margin-bottom: 16px;
+  font-size: 0.92rem;
+}
+
+.meta dt {
+  color: var(--text-muted);
+}
+
+.meta dd {
+  margin: 0 0 8px;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+@media (max-width: 900px) {
+  .card {
+    grid-template-columns: 1fr;
+  }
+}

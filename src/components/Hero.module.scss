@@ -1,0 +1,82 @@
+.hero {
+  padding: 72px 0 24px;
+}
+
+.copy {
+  max-width: 46rem;
+}
+
+.role {
+  margin: 10px 0 18px;
+  font-size: 1.05rem;
+  color: var(--text-muted);
+}
+
+.headline {
+  font-family: var(--font-serif);
+  font-size: clamp(2.1rem, 5vw, 3.35rem);
+  line-height: 1.12;
+  font-weight: 550;
+  letter-spacing: -0.03em;
+  margin-bottom: 18px;
+}
+
+.lede {
+  color: var(--text-muted);
+  font-size: 1.05rem;
+  max-width: 40rem;
+  margin-bottom: 28px;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.facts {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1px;
+  margin-top: 56px;
+  background: var(--line);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.fact {
+  background: var(--bg-elevated);
+  padding: 20px 22px;
+}
+
+.fact b {
+  display: block;
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.fact span {
+  color: var(--text-muted);
+  font-size: 0.92rem;
+}
+
+@media (max-width: 720px) {
+  .hero {
+    padding-top: 40px;
+  }
+
+  .headline {
+    font-size: 1.85rem;
+    overflow-wrap: break-word;
+  }
+
+  .lede {
+    font-size: 0.98rem;
+  }
+
+  .facts {
+    grid-template-columns: 1fr;
+  }
+}

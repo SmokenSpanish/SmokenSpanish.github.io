@@ -1,0 +1,50 @@
+.list {
+  display: grid;
+  gap: 18px;
+}
+
+.item {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  gap: 20px;
+  padding: 22px 0;
+  border-top: 1px solid var(--line);
+}
+
+.dates {
+  color: var(--text-muted);
+  font-size: 0.88rem;
+}
+
+.company {
+  font-weight: 600;
+}
+
+.role {
+  font-family: var(--font-serif);
+  font-size: 1.25rem;
+  margin: 4px 0 8px;
+}
+
+.meta {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+.item ul {
+  margin: 0;
+  padding-left: 18px;
+  color: var(--text-muted);
+}
+
+.item li + li {
+  margin-top: 6px;
+}
+
+@media (max-width: 720px) {
+  .item {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+}
