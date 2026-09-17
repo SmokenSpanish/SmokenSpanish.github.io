@@ -25,7 +25,7 @@ export function Hero() {
         <dl className={styles.facts}>
           <div className={styles.fact}>
             <b>HTML5 playable ads</b>
-            <span>Cocos Creator · mostly 2D, also 3D</span>
+            <span>Cocos Creator · 2D and 3D</span>
           </div>
           <div className={styles.fact}>
             <b>5+ years frontend</b>

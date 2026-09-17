@@ -1,5 +1,5 @@
 import { Link, Navigate, useParams } from 'react-router-dom';
-import { getPlayable } from '@/data/playables';
+import { getPlayable, isFullGame } from '@/data/playables';
 import { PlayablePlayer } from '@/components/PlayablePlayer';
 import { useDocumentTitle } from '@/hooks/useDocumentTitle';
 import styles from './PlayablePage.module.scss';
@@ -23,8 +23,8 @@ export function PlayablePage() {
             </Link>
             <h1 className="section__title">{playable.title}</h1>
             <p className={styles.meta}>
-              {playable.dimension === '3d' ? '3D' : '2D'} · {playable.technology.join(' · ')} · {playable.buildSizeMb} MB
-              · {playable.role}
+              {isFullGame(playable) ? 'Full game' : playable.dimension === '3d' ? '3D game' : '2D'} ·{' '}
+              {playable.technology.join(' · ')} · {playable.buildSizeMb} MB · {playable.role}
             </p>
           </div>
         </div>

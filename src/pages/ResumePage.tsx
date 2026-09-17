@@ -27,9 +27,9 @@ export function ResumePage() {
             at {site.studio} ({site.studioLocation}).
           </p>
           <p>
-            I implement HTML5 playables in Cocos Creator: primarily 2D, and 3D as well (Scoopy). Gameplay,
-            interaction, UI, animation, asset handling, performance, and network-ready builds. Previously:
-            production web apps in React and Vue.
+            I implement HTML5 playables in Cocos Creator — 2D and 3D. Gameplay, interaction, UI, animation,
+            asset handling, performance, and network-ready builds. Previously: production web apps in React
+            and Vue.
           </p>
           <p>
             AI-assisted development is part of the workflow. Software development is the core skill.
@@ -42,6 +42,7 @@ export function ResumePage() {
             Playable ads: Cocos Creator, HTML5, 2D and 3D playables, build size, performance, asset loading, ad
             networks.
           </p>
+          <p>Used to working for Europe and Asia. Playables adapted for any language.</p>
           <p>Frontend: JavaScript, TypeScript, React, Vue, HTML, CSS/SCSS.</p>
           <p>Languages: Russian — native. English — fluent (non-native).</p>
         </section>

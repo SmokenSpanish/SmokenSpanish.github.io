@@ -8,7 +8,7 @@ Email: maksimbasov1992@mail.ru
 
 Frontend developer with 5+ years of commercial experience, currently focused on HTML5 playable ads at Kourion Studio (Cyprus, remote).
 
-I implement HTML5 playable ads in Cocos Creator (JavaScript/TypeScript): primarily 2D, and 3D as well (Scoopy). Gameplay, interaction, UI, animation, asset handling, performance, and network-ready HTML5 builds. Draft playables typically come together in about two days.
+I implement HTML5 playable ads in Cocos Creator (JavaScript/TypeScript) — 2D and 3D. Gameplay, interaction, UI, animation, asset handling, performance, and network-ready HTML5 builds. Draft playables typically come together in about two days.
 
 Previously: production web applications in React and Vue — responsive UI, client logic, REST APIs, refactoring, and support.
 
@@ -17,6 +17,8 @@ AI-assisted development is part of the production workflow (task spec, faster im
 ## Skills
 
 **Playable ads:** Cocos Creator, HTML5, 2D and 3D playables, build size, performance, asset loading, ad networks (Moloco, Facebook, AppLovin, Unity, ironSource)
+
+**Markets:** used to working for Europe and Asia. Playables adapted for any language.
 
 **Frontend:** JavaScript, TypeScript, React, Vue, HTML, CSS/SCSS
 
@@ -30,7 +32,7 @@ AI-assisted development is part of the production workflow (task spec, faster im
 Cyprus · Remote  
 September 2025 – Present
 
-- Independent implementation of commercial HTML5 playable ads in Cocos Creator — primarily 2D, including 3D (Scoopy).
+- Independent implementation of commercial HTML5 playable ads in Cocos Creator — 2D and 3D.
 - Gameplay, interaction, UI, animation, asset handling, performance, and packed HTML builds for ad networks.
 - Working within playable constraints: build size, HTML5, asset loading, and network requirements.
 - Draft playables typically assembled in about two days, then iterated to a production build.

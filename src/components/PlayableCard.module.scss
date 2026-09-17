@@ -42,7 +42,8 @@
   color: var(--text-muted);
 }
 
-.badge[data-dimension='3d'] {
+.badge[data-dimension='3d'],
+.badge[data-kind='game'] {
   border-color: transparent;
   background: var(--accent);
   color: var(--bg);

@@ -1,6 +1,6 @@
 import { useId, useState } from 'react';
 import { Link } from 'react-router-dom';
-import type { Playable, PlayableOrientation } from '@/data/playables';
+import { isFullGame, type Playable, type PlayableOrientation } from '@/data/playables';
 import { withBase } from '@/lib/base';
 import styles from './PlayablePlayer.module.scss';
 
@@ -19,6 +19,8 @@ export function PlayablePlayer({
   const [orientation, setOrientation] = useState<PlayableOrientation>(playable.orientation);
   const titleId = useId();
   const src = withBase(`playables/${playable.slug}/index.html`);
+  const fullGame = isFullGame(playable);
+  const overlayHint = fullGame ? 'Full HTML5 game' : playable.dimension === '3d' ? '3D game' : 'Play in the browser';
 
   return (
     <div className={styles.shell}>
@@ -28,7 +30,7 @@ export function PlayablePlayer({
             <iframe
               className={styles.iframe}
               src={src}
-              title={`${playable.title} playable demo`}
+              title={`${playable.title} ${fullGame ? 'game' : 'playable'} demo`}
               loading="lazy"
               allow="autoplay; fullscreen"
             />
@@ -38,7 +40,7 @@ export function PlayablePlayer({
                 {playable.title}
               </span>
               <span className={styles.overlayHint}>
-                {playable.dimension === '3d' ? '3D HTML5 playable' : 'Play in the browser'} · {playable.buildSizeMb} MB
+                {overlayHint} · {playable.buildSizeMb} MB
                 build
               </span>
               <span className="btn btn--primary">Play</span>

@@ -1,5 +1,6 @@
 export type PlayableOrientation = 'portrait' | 'landscape';
 export type PlayableDimension = '2d' | '3d';
+export type WorkKind = 'playable' | 'game';
 
 export interface Playable {
   slug: string;
@@ -11,7 +12,12 @@ export interface Playable {
   buildSizeMb: number;
   orientation: PlayableOrientation;
   dimension: PlayableDimension;
+  kind?: WorkKind;
   featured?: boolean;
+}
+
+export function isFullGame(item: Playable): boolean {
+  return item.kind === 'game';
 }
 
 export const playables: Playable[] = [
@@ -64,14 +70,14 @@ export const playables: Playable[] = [
     dimension: '2d',
   },
   {
-    slug: 'houndhouse',
-    title: 'Houndhouse',
+    slug: 'fortune-dragon',
+    title: 'Fortune Dragon',
     summary:
-      'Portrait slot / roulette playable: spin loop, payline presentation, geo-aware money art, multipliers, and packed HTML for ad networks.',
-    mechanics: ['Spin loop', 'Paylines', 'Balance / bet', 'Network CTA'],
+      'Portrait slot playable: 3×3 reels, paylines, Fortune Dragon multipliers, geo-aware currency and copy, and packed HTML for ad networks.',
+    mechanics: ['Reel spin', 'Paylines', 'Multipliers', 'Geo / locale'],
     technology: ['Cocos Creator 3.8', 'TypeScript', 'HTML5'],
     role: 'End-to-end implementation',
-    buildSizeMb: 4.26,
+    buildSizeMb: 4.86,
     orientation: 'portrait',
     dimension: '2d',
   },
@@ -79,7 +85,7 @@ export const playables: Playable[] = [
     slug: 'scoopy',
     title: 'Scoopy',
     summary:
-      '3D HTML5 playable: character-driven dice interaction in a 3D scene, animation, UI scaling, and a staged endcard with packshot and store CTA.',
+      'A 3D game: dice interaction with a character in the scene, animation, UI scaling, and a staged endcard with packshot and store CTA.',
     mechanics: ['3D scene', 'Dice interaction', 'Character animation', 'Endcard / packshot'],
     technology: ['Cocos Creator 3.8', 'JavaScript', 'HTML5', '3D'],
     role: 'End-to-end implementation',
@@ -87,6 +93,19 @@ export const playables: Playable[] = [
     orientation: 'portrait',
     dimension: '3d',
     featured: true,
+  },
+  {
+    slug: 'runner',
+    title: 'Runner',
+    summary:
+      'Full HTML5 game, not a playable ad: side-scrolling runner with jump, obstacles, collectibles, score, and a complete play loop.',
+    mechanics: ['Endless runner', 'Jump', 'Obstacles', 'Collectibles'],
+    technology: ['Cocos Creator 3.8', 'TypeScript', 'HTML5'],
+    role: 'End-to-end implementation',
+    buildSizeMb: 3.75,
+    orientation: 'landscape',
+    dimension: '2d',
+    kind: 'game',
   },
 ];
 

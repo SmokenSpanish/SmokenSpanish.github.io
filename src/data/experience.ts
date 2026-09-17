@@ -16,7 +16,7 @@ export const experience: ExperienceItem[] = [
     meta: 'Cyprus · Remote',
     role: 'Playable Ads Developer',
     bullets: [
-      'Independent implementation of commercial HTML5 playable ads in Cocos Creator — primarily 2D, including 3D (Scoopy).',
+      'Independent implementation of commercial HTML5 playable ads in Cocos Creator — 2D and 3D.',
       'Gameplay, interaction, UI, animation, asset handling, performance, and packed HTML builds for ad networks.',
       'Working within playable constraints: build size, HTML5, asset loading, and network requirements (Moloco, Facebook, AppLovin, Unity, ironSource).',
       'Draft playables typically assembled in about two days, then iterated to a production build.',

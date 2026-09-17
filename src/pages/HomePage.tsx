@@ -18,8 +18,8 @@ export function HomePage() {
           <p className="kicker">Selected playables</p>
           <h2 className="section__title">Production HTML5 builds, playable here</h2>
           <p className="section__lede">
-            Packed Cocos Creator playables served as HTML — mostly 2D, with one 3D build (Scoopy) highlighted below.
-            Click Play to load the demo. No source archives, no download button.
+            Packed Cocos Creator playables served as HTML — 2D and 3D — plus one full HTML5 game. Click Play to
+            load the demo. No source archives, no download button.
           </p>
           {playables.map((playable) => (
             <PlayableCard key={playable.slug} playable={playable} />
