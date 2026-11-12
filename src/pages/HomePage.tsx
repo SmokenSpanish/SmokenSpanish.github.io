@@ -3,6 +3,7 @@ import { PlayableCard } from '@/components/PlayableCard';
 import { Process } from '@/components/Process';
 import { FrontendWork } from '@/components/FrontendWork';
 import { ExperienceList } from '@/components/ExperienceList';
+import { CopyEmail } from '@/components/CopyEmail';
 import { playables } from '@/data/playables';
 import { site } from '@/data/site';
 import { useDocumentTitle } from '@/hooks/useDocumentTitle';
@@ -63,9 +64,12 @@ export function HomePage() {
             Reach me by email, Telegram, or WhatsApp. Happy to set up a call. Based in Bangkok
             (UTC+7), working remotely with teams in Europe and Asia. {site.availability}.
           </p>
+          <p className={styles.email}>
+            <CopyEmail />
+          </p>
           <div className={styles.contact}>
             <a className="btn btn--primary" href={`mailto:${site.email}`}>
-              {site.email}
+              Write an email
             </a>
             <a className="btn btn--ghost" href={site.telegramUrl}>
               Telegram {site.telegramHandle}

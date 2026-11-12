@@ -2,6 +2,7 @@ import { education, experience } from '@/data/experience';
 import { site } from '@/data/site';
 import { useDocumentTitle } from '@/hooks/useDocumentTitle';
 import { withBase } from '@/lib/base';
+import { CopyEmail } from '@/components/CopyEmail';
 import styles from './ResumePage.module.scss';
 
 export function ResumePage() {
@@ -17,7 +18,7 @@ export function ResumePage() {
           <p className={styles.contacts}>
             <span>{site.location}</span>
             <span>{site.availability}</span>
-            <a href={`mailto:${site.email}`}>{site.email}</a>
+            <CopyEmail />
             <a href={site.telegramUrl}>Telegram {site.telegramHandle}</a>
             <a href={site.whatsappUrl} target="_blank" rel="noreferrer">
               WhatsApp
