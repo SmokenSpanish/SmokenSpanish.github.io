@@ -33,13 +33,19 @@ const browsers = [
 const escapeHtml = (text) => text.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
 function inline(text) {
-  return escapeHtml(text)
+  const links = [];
+  const withTokens = escapeHtml(text).replace(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/g, (_, label, url) => {
+    links.push(`<a href="${url}">${label}</a>`);
+    return `\u0000${links.length - 1}\u0000`;
+  });
+  return withTokens
     .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
     .replace(/(https?:\/\/[^\s<]+)/g, (url) => `<a href="${url}">${url.replace(/^https?:\/\//, '').replace(/\/$/, '')}</a>`)
-    .replace(/([\w.+-]+@[\w-]+\.[\w.]+)/g, '<a href="mailto:$1">$1</a>');
+    .replace(/([\w.+-]+@[\w-]+\.[\w.]+)/g, '<a href="mailto:$1">$1</a>')
+    .replace(/\u0000(\d+)\u0000/g, (_, index) => links[Number(index)]);
 }
 
-/** Minimal markdown → HTML for the subset the CV uses: headings, paragraphs, hard breaks, two-level lists. */
+/** Minimal markdown → HTML for the subset the CV uses: headings, paragraphs, hard breaks, two-level lists, [label](url) links. */
 function toHtml(markdown) {
   const lines = markdown.replace(/\r\n/g, '\n').split('\n');
   const out = [];

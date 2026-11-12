@@ -6,7 +6,6 @@ export const site = {
   telegramUrl: 'https://t.me/SmokenSpanish',
   telegramHandle: '@SmokenSpanish',
   whatsappUrl: 'https://wa.me/79859071865',
-  whatsappLabel: '+7 985 907-18-65',
   githubUrl: 'https://github.com/SmokenSpanish',
   githubLabel: 'github.com/SmokenSpanish',
   cvPdf: 'Maksim-Basov-CV.pdf',

@@ -20,7 +20,7 @@ export function ResumePage() {
             <a href={`mailto:${site.email}`}>{site.email}</a>
             <a href={site.telegramUrl}>Telegram {site.telegramHandle}</a>
             <a href={site.whatsappUrl} target="_blank" rel="noreferrer">
-              WhatsApp {site.whatsappLabel}
+              WhatsApp
             </a>
             <a href={site.githubUrl} target="_blank" rel="noreferrer">
               {site.githubLabel}

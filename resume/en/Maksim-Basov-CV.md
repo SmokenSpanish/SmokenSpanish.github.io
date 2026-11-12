@@ -3,7 +3,7 @@ Playable Ads Developer / Frontend Developer — HTML5, Cocos Creator, TypeScript
 Bangkok, Thailand (UTC+7) · Remote · Open to B2B contract
 Email: desertmax4@gmail.com
 Telegram: @SmokenSpanish · https://t.me/SmokenSpanish
-WhatsApp: +7 985 907-18-65
+[WhatsApp](https://wa.me/79859071865)
 Portfolio: https://smokenspanish.github.io
 GitHub: https://github.com/SmokenSpanish
 
