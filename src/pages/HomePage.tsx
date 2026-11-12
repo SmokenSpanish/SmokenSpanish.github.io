@@ -58,17 +58,20 @@ export function HomePage() {
       <section className="section" id="contact">
         <div className="container">
           <p className="kicker">Contact</p>
-          <h2 className="section__title">Telegram, email, or a call</h2>
+          <h2 className="section__title">Email, Telegram, or a call</h2>
           <p className="section__lede">
-            Fastest way to reach me is Telegram; email works too, and I am happy to set up a call. Based in Bangkok
+            Best way to reach me is email; Telegram and WhatsApp work too, and I am happy to set up a call. Based in Bangkok
             (UTC+7), working remotely with teams in Europe and Asia. {site.availability}.
           </p>
           <div className={styles.contact}>
-            <a className="btn btn--primary" href={site.telegramUrl}>
-              {site.telegramHandle}
-            </a>
-            <a className="btn btn--ghost" href={`mailto:${site.email}`}>
+            <a className="btn btn--primary" href={`mailto:${site.email}`}>
               {site.email}
+            </a>
+            <a className="btn btn--ghost" href={site.telegramUrl}>
+              Telegram {site.telegramHandle}
+            </a>
+            <a className="btn btn--ghost" href={site.whatsappUrl} target="_blank" rel="noreferrer">
+              WhatsApp
             </a>
             <a className="btn btn--ghost" href={site.githubUrl} target="_blank" rel="noreferrer">
               GitHub

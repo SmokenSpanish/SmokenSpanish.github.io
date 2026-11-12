@@ -9,11 +9,14 @@ export function Footer() {
           {site.name} · {site.studio}, {site.studioLocation}
         </p>
         <div className={styles.links}>
+          <a href={`mailto:${site.email}`}>Email</a>
           <a href={site.telegramUrl}>Telegram</a>
+          <a href={site.whatsappUrl} target="_blank" rel="noreferrer">
+            WhatsApp
+          </a>
           <a href={site.githubUrl} target="_blank" rel="noreferrer">
             GitHub
           </a>
-          <a href={`mailto:${site.email}`}>Email</a>
         </div>
       </div>
     </footer>

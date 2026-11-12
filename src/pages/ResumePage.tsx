@@ -17,8 +17,11 @@ export function ResumePage() {
           <p className={styles.contacts}>
             <span>{site.location}</span>
             <span>{site.availability}</span>
-            <a href={site.telegramUrl}>{site.telegramHandle}</a>
             <a href={`mailto:${site.email}`}>{site.email}</a>
+            <a href={site.telegramUrl}>Telegram {site.telegramHandle}</a>
+            <a href={site.whatsappUrl} target="_blank" rel="noreferrer">
+              WhatsApp {site.whatsappLabel}
+            </a>
             <a href={site.githubUrl} target="_blank" rel="noreferrer">
               {site.githubLabel}
             </a>
@@ -61,7 +64,7 @@ export function ResumePage() {
           <p>Frontend: JavaScript, TypeScript, React, Vue, HTML, CSS/SCSS.</p>
           <p>Tooling: Git, Webpack/Vite, Node.js build scripts, Figma.</p>
           <p>Markets: playables for Europe and Asia, localized copy and geo-aware currency.</p>
-          <p>Languages: Russian — native. English — fluent.</p>
+          <p>Languages: English — fluent. Russian — fluent.</p>
         </section>
 
         <section className={styles.block}>

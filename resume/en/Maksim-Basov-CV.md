@@ -1,10 +1,11 @@
 # Maksim Basov
 Playable Ads Developer / Frontend Developer — HTML5, Cocos Creator, TypeScript
 Bangkok, Thailand (UTC+7) · Remote · Open to B2B contract
+Email: desertmax4@gmail.com
+Telegram: @SmokenSpanish · https://t.me/SmokenSpanish
+WhatsApp: +7 985 907-18-65
 Portfolio: https://smokenspanish.github.io
 GitHub: https://github.com/SmokenSpanish
-Telegram: @SmokenSpanish · https://t.me/SmokenSpanish
-Email: maksimbasov1992@mail.ru
 
 ## Summary
 
@@ -30,7 +31,7 @@ AI-assisted development is part of my production workflow (task spec, faster imp
 
 **Markets:** playables for Europe and Asia, localized copy and geo-aware currency
 
-**Languages:** Russian — native; English — fluent
+**Languages:** English — fluent; Russian — fluent
 
 ## Experience
 

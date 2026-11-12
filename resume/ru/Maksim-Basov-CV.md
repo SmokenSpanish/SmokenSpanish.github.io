@@ -1,10 +1,11 @@
 # Максим Басов
 Playable Ads Developer / Frontend-разработчик — HTML5, Cocos Creator, TypeScript
 Бангкок, Таиланд (UTC+7) · удалённо · готов работать по контракту (B2B)
+Почта: desertmax4@gmail.com
+Telegram: @SmokenSpanish · https://t.me/SmokenSpanish
+WhatsApp: +7 985 907-18-65
 Портфолио: https://smokenspanish.github.io
 GitHub: https://github.com/SmokenSpanish
-Telegram: @SmokenSpanish · https://t.me/SmokenSpanish
-Почта: maksimbasov1992@mail.ru
 
 ## О себе
 
@@ -30,7 +31,7 @@ AI-assisted development — часть рабочего процесса (пос
 
 **Рынки:** playable для Европы и Азии, локализация текстов и валюта по гео
 
-**Языки:** русский — родной; английский — свободный
+**Языки:** английский — свободный; русский — свободный
 
 ## Опыт
 
