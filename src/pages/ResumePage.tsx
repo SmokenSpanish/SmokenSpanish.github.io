@@ -1,6 +1,7 @@
 import { education, experience } from '@/data/experience';
 import { site } from '@/data/site';
 import { useDocumentTitle } from '@/hooks/useDocumentTitle';
+import { withBase } from '@/lib/base';
 import styles from './ResumePage.module.scss';
 
 export function ResumePage() {
@@ -15,36 +16,52 @@ export function ResumePage() {
           </p>
           <p className={styles.contacts}>
             <span>{site.location}</span>
+            <span>{site.availability}</span>
             <a href={site.telegramUrl}>{site.telegramHandle}</a>
             <a href={`mailto:${site.email}`}>{site.email}</a>
+            <a href={site.githubUrl} target="_blank" rel="noreferrer">
+              {site.githubLabel}
+            </a>
+          </p>
+          <p className={styles.download}>
+            <a className="btn btn--ghost" href={withBase(site.cvPdf)} download>
+              Download PDF
+            </a>
           </p>
         </header>
 
         <section className={styles.block}>
           <h2>Summary</h2>
           <p>
-            Frontend developer with 5+ years of commercial experience, currently focused on HTML5 playable ads
-            at {site.studio} ({site.studioLocation}).
+            Developer with 5+ years of commercial experience: 4 years of product frontend (React, Vue) and 14
+            months of HTML5 playable ads at {site.studio} ({site.studioLocation}, remote).
           </p>
           <p>
-            I implement HTML5 playables in Cocos Creator — 2D and 3D. Gameplay, interaction, UI, animation,
-            asset handling, performance, and network-ready builds. Previously: production web apps in React
-            and Vue.
+            Shipped around 60 commercial playables in 14 months — up to 10 a month — in Cocos Creator
+            (TypeScript/JavaScript), 2D and 3D. I own a playable end to end: gameplay, physics, UI, animation,
+            assets, performance, and network-ready builds. A working draft usually takes about two days.
           </p>
           <p>
-            AI-assisted development is part of the workflow. Software development is the core skill.
+            Before playables: production web applications in React and Vue — responsive UI, client logic, REST
+            APIs, refactoring, and support.
+          </p>
+          <p>
+            AI-assisted development is part of my production workflow. Software development is the core skill.
           </p>
         </section>
 
         <section className={styles.block}>
           <h2>Skills</h2>
           <p>
-            Playable ads: Cocos Creator, HTML5, 2D and 3D playables, build size, performance, asset loading, ad
-            networks.
+            Playable ads: HTML5, 2D and 3D playables, gameplay and physics (Box2D), build size, performance,
+            asset loading, single-file packed builds.
           </p>
-          <p>Used to working for Europe and Asia. Playables adapted for any language.</p>
+          <p>Ad networks: AppLovin, Google, Mintegral, TikTok, Moloco, Facebook, Unity, ironSource.</p>
+          <p>Game engines: Cocos Creator 3.8 (main production tool), Godot / GDScript (personal projects).</p>
           <p>Frontend: JavaScript, TypeScript, React, Vue, HTML, CSS/SCSS.</p>
-          <p>Languages: Russian — native. English — fluent (non-native).</p>
+          <p>Tooling: Git, Webpack/Vite, Node.js build scripts, Figma.</p>
+          <p>Markets: playables for Europe and Asia, localized copy and geo-aware currency.</p>
+          <p>Languages: Russian — native. English — fluent.</p>
         </section>
 
         <section className={styles.block}>

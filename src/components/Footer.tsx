@@ -10,6 +10,9 @@ export function Footer() {
         </p>
         <div className={styles.links}>
           <a href={site.telegramUrl}>Telegram</a>
+          <a href={site.githubUrl} target="_blank" rel="noreferrer">
+            GitHub
+          </a>
           <a href={`mailto:${site.email}`}>Email</a>
         </div>
       </div>

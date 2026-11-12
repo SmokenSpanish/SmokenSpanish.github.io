@@ -22,6 +22,18 @@ export function isFullGame(item: Playable): boolean {
 
 export const playables: Playable[] = [
   {
+    slug: 'ragdoll-arena',
+    title: 'Ragdoll Arena',
+    summary:
+      'Physics sandbox playable: hinge-joint ragdolls that struggle and react, a weapon pick (saw, flamethrower, grenade) with a guiding hand, liquid and particle effects, and a packshot with store CTA. One build ships as one-tap, two-tap, and full variants for AppLovin, Google, Mintegral, and TikTok.',
+    mechanics: ['2D ragdoll physics', 'Weapon choice', 'Liquid / particle FX', 'Config-driven variants'],
+    technology: ['Cocos Creator 3.8', 'TypeScript', 'Box2D', 'HTML5'],
+    role: 'End-to-end implementation',
+    buildSizeMb: 3.39,
+    orientation: 'portrait',
+    dimension: '2d',
+  },
+  {
     slug: 'last-trick',
     title: 'Last Trick',
     summary:

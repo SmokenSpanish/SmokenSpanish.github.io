@@ -24,12 +24,12 @@ export function Hero() {
         </div>
         <dl className={styles.facts}>
           <div className={styles.fact}>
-            <b>HTML5 playable ads</b>
-            <span>Cocos Creator · 2D and 3D</span>
+            <b>~60 playables shipped</b>
+            <span>14 months · Cocos Creator · 2D and 3D</span>
           </div>
           <div className={styles.fact}>
-            <b>5+ years frontend</b>
-            <span>JavaScript / TypeScript, React, Vue</span>
+            <b>5+ years commercial</b>
+            <span>4 years React / Vue, then playable ads</span>
           </div>
           <div className={styles.fact}>
             <b>Rapid prototyping</b>

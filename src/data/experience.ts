@@ -13,14 +13,15 @@ export const experience: ExperienceItem[] = [
     start: 'Sep 2025',
     end: 'Present',
     company: 'Kourion Studio',
-    meta: 'Cyprus · Remote',
+    meta: 'Cyprus · Remote · 14 months',
     role: 'Playable Ads Developer',
     bullets: [
-      'Independent implementation of commercial HTML5 playable ads in Cocos Creator — 2D and 3D.',
-      'Gameplay, interaction, UI, animation, asset handling, performance, and packed HTML builds for ad networks.',
-      'Working within playable constraints: build size, HTML5, asset loading, and network requirements (Moloco, Facebook, AppLovin, Unity, ironSource).',
-      'Draft playables typically assembled in about two days, then iterated to a production build.',
-      'AI-assisted development used to speed up implementation; architecture, debugging, and shipping stay in my hands.',
+      'Shipped around 60 commercial HTML5 playable ads in 14 months (up to 10 a month), working independently from brief to network-ready build.',
+      'Built 2D and 3D gameplay in Cocos Creator 3.8 with TypeScript: card and slot mechanics, hidden-object scenes, deduction boards, ragdoll physics, runners.',
+      'Delivered single-file packed builds for AppLovin, Google, Mintegral, TikTok, Moloco, Facebook, Unity, and ironSource within the size and API requirements of each network.',
+      'Produced one-tap, two-tap, and full variants, reskins, and localized versions from a single codebase through config-driven builds.',
+      'Assemble a playable draft in about two days, then iterate to a production build.',
+      'Use AI-assisted development to speed up implementation; architecture, debugging, and shipping stay in my hands.',
     ],
   },
   {
@@ -30,8 +31,8 @@ export const experience: ExperienceItem[] = [
     meta: 'walnut.team · Product company',
     role: 'Frontend Developer',
     bullets: [
-      'Client-side development and support of web applications in a product team (backend, design, task breakdown).',
-      'Feature implementation from spec, interactive UI, REST API integration, bugfixing, optimization, and refactoring.',
+      'Developed and supported client-side web applications in a product team alongside backend, design, and product.',
+      'Implemented features from spec: interactive UI, REST API integration, bug fixing, optimization, and refactoring.',
     ],
     links: [
       { label: 'VkusVill Food', href: 'https://food.vkusvill.ru/' },
@@ -45,7 +46,7 @@ export const experience: ExperienceItem[] = [
     meta: 'themembers.com',
     role: 'Frontend Developer',
     bullets: [
-      'Landing pages from design, CSS animation, Bootstrap, module integration, and bug analysis.',
+      'Built landing pages from design: CSS animation, Bootstrap, module integration, and bug analysis.',
     ],
   },
   {
@@ -55,7 +56,7 @@ export const experience: ExperienceItem[] = [
     meta: 'maximumeducation.com',
     role: 'Frontend Developer',
     bullets: [
-      'Company sites (maximumtest.ru, maximumeducation.com), landings, blog, and magazine. Vue, Scrum, CRM/CMS, responsive UI.',
+      'Developed company sites (maximumtest.ru, maximumeducation.com), landing pages, blog, and magazine with Vue in a Scrum team; CRM/CMS integration, responsive UI.',
     ],
   },
 ];

@@ -42,7 +42,7 @@ export function HomePage() {
           <p className="kicker">Frontend background</p>
           <h2 className="section__title">Commercial web before playables</h2>
           <p className="section__lede">
-            Five-plus years of product frontend — React, Vue, HTML/CSS, client logic, and production support.
+            Four years of product frontend — React, Vue, HTML/CSS, client logic, and production support.
             Live references from Walnut Team:
           </p>
           <FrontendWork />
@@ -58,9 +58,10 @@ export function HomePage() {
       <section className="section" id="contact">
         <div className="container">
           <p className="kicker">Contact</p>
-          <h2 className="section__title">Telegram or email</h2>
+          <h2 className="section__title">Telegram, email, or a call</h2>
           <p className="section__lede">
-            Best way to reach me is Telegram. Email also works. I do not take calls.
+            Fastest way to reach me is Telegram; email works too, and I am happy to set up a call. Based in Moscow
+            (UTC+3), working remotely with teams in Europe and Asia. {site.availability}.
           </p>
           <div className={styles.contact}>
             <a className="btn btn--primary" href={site.telegramUrl}>
@@ -68,6 +69,9 @@ export function HomePage() {
             </a>
             <a className="btn btn--ghost" href={`mailto:${site.email}`}>
               {site.email}
+            </a>
+            <a className="btn btn--ghost" href={site.githubUrl} target="_blank" rel="noreferrer">
+              GitHub
             </a>
           </div>
         </div>

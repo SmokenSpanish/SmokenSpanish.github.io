@@ -1,49 +1,56 @@
 # Maksim Basov
-Frontend / Creative Developer specializing in HTML5 Playable Ads
-Moscow · Remote
+Playable Ads Developer / Frontend Developer — HTML5, Cocos Creator, TypeScript
+Moscow (UTC+3) · Remote · Open to B2B contract
+Portfolio: https://smokenspanish.github.io
+GitHub: https://github.com/SmokenSpanish
 Telegram: @SmokenSpanish · https://t.me/SmokenSpanish
 Email: maksimbasov1992@mail.ru
 
 ## Summary
 
-Frontend developer with 5+ years of commercial experience, currently focused on HTML5 playable ads at Kourion Studio (Cyprus, remote).
+Developer with 5+ years of commercial experience: 4 years of product frontend (React, Vue) and 14 months of HTML5 playable ads at Kourion Studio (Cyprus, remote).
 
-I implement HTML5 playable ads in Cocos Creator (JavaScript/TypeScript) — 2D and 3D. Gameplay, interaction, UI, animation, asset handling, performance, and network-ready HTML5 builds. Draft playables typically come together in about two days.
+Shipped around 60 commercial playables in 14 months — up to 10 a month — in Cocos Creator (TypeScript/JavaScript), 2D and 3D. I own a playable end to end: gameplay, physics, UI, animation, assets, performance, and network-ready builds. A working draft usually takes about two days.
 
-Previously: production web applications in React and Vue — responsive UI, client logic, REST APIs, refactoring, and support.
+Before playables: production web applications in React and Vue — responsive UI, client logic, REST APIs, refactoring, and support.
 
-AI-assisted development is part of the production workflow (task spec, faster implementation, review, debug). Software development is the core skill.
+AI-assisted development is part of my production workflow (task spec, faster implementation, review, debugging). Software development is the core skill.
 
 ## Skills
 
-**Playable ads:** Cocos Creator, HTML5, 2D and 3D playables, build size, performance, asset loading, ad networks (Moloco, Facebook, AppLovin, Unity, ironSource)
+**Playable ads:** HTML5, 2D and 3D playables, gameplay and physics (Box2D), build size, performance, asset loading, single-file packed builds
 
-**Markets:** used to working for Europe and Asia. Playables adapted for any language.
+**Ad networks:** AppLovin, Google, Mintegral, TikTok, Moloco, Facebook, Unity, ironSource
+
+**Game engines:** Cocos Creator 3.8 (main production tool), Godot / GDScript (personal projects)
 
 **Frontend:** JavaScript, TypeScript, React, Vue, HTML, CSS/SCSS
 
-**Tooling:** Git, Webpack/Vite, Figma
+**Tooling:** Git, Webpack/Vite, Node.js build scripts, Figma
 
-**Languages:** Russian — native; English — fluent (non-native)
+**Markets:** playables for Europe and Asia, localized copy and geo-aware currency
+
+**Languages:** Russian — native; English — fluent
 
 ## Experience
 
 ### Playable Ads Developer — Kourion Studio
 Cyprus · Remote  
-September 2025 – Present
+September 2025 – Present (14 months)
 
-- Independent implementation of commercial HTML5 playable ads in Cocos Creator — 2D and 3D.
-- Gameplay, interaction, UI, animation, asset handling, performance, and packed HTML builds for ad networks.
-- Working within playable constraints: build size, HTML5, asset loading, and network requirements.
-- Draft playables typically assembled in about two days, then iterated to a production build.
-- AI-assisted development used to speed up implementation; architecture, debugging, and shipping stay in my hands.
+- Shipped around 60 commercial HTML5 playable ads in 14 months (up to 10 a month), working independently from brief to network-ready build.
+- Built 2D and 3D gameplay in Cocos Creator 3.8 with TypeScript: card and slot mechanics, hidden-object scenes, deduction boards, ragdoll physics, runners.
+- Delivered single-file packed builds for AppLovin, Google, Mintegral, TikTok, Moloco, Facebook, Unity, and ironSource within the size and API requirements of each network.
+- Produced one-tap, two-tap, and full variants, reskins, and localized versions from a single codebase through config-driven builds.
+- Assemble a playable draft in about two days, then iterate to a production build.
+- Use AI-assisted development to speed up implementation; architecture, debugging, and shipping stay in my hands.
 
 ### Frontend Developer — Walnut Team
 walnut.team · Product company  
-May 2022 – August 2025
+May 2022 – August 2025 (3 years 4 months)
 
-- Client-side development and support of web applications in a product team (backend, design, task breakdown).
-- Feature implementation from spec, interactive UI, REST API integration, bugfixing, optimization, and refactoring.
+- Developed and supported client-side web applications in a product team alongside backend, design, and product.
+- Implemented features from spec: interactive UI, REST API integration, bug fixing, optimization, and refactoring.
 - Public work:
   - VkusVill Food: https://food.vkusvill.ru/
   - VkusVill Prazdnik: https://prazdnik.vkusvill.ru/
@@ -52,13 +59,13 @@ May 2022 – August 2025
 themembers.com  
 March 2022 – April 2022
 
-- Landing pages from design, CSS animation, Bootstrap, module integration, and bug analysis.
+- Built landing pages from design: CSS animation, Bootstrap, module integration, and bug analysis.
 
 ### Frontend Developer — MAXIMUM EDUCATION
 maximumeducation.com  
 September 2021 – February 2022
 
-- Company sites (maximumtest.ru, maximumeducation.com), landings, blog, and magazine. Vue, Scrum, CRM/CMS, responsive UI.
+- Developed company sites (maximumtest.ru, maximumeducation.com), landing pages, blog, and magazine with Vue in a Scrum team; CRM/CMS integration, responsive UI.
 
 ## Education
 
