@@ -10,7 +10,7 @@ export const site = {
   cvPdf: 'Maksim-Basov-CV.pdf',
   studio: 'Kourion Studio',
   studioLocation: 'Cyprus',
-  location: 'Moscow (UTC+3) · Remote',
+  location: 'Bangkok, Thailand (UTC+7) · Remote',
   availability: 'Open to B2B contract',
 } as const;
 

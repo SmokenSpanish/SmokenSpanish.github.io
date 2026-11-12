@@ -60,8 +60,8 @@ export function HomePage() {
           <p className="kicker">Contact</p>
           <h2 className="section__title">Telegram, email, or a call</h2>
           <p className="section__lede">
-            Fastest way to reach me is Telegram; email works too, and I am happy to set up a call. Based in Moscow
-            (UTC+3), working remotely with teams in Europe and Asia. {site.availability}.
+            Fastest way to reach me is Telegram; email works too, and I am happy to set up a call. Based in Bangkok
+            (UTC+7), working remotely with teams in Europe and Asia. {site.availability}.
           </p>
           <div className={styles.contact}>
             <a className="btn btn--primary" href={site.telegramUrl}>

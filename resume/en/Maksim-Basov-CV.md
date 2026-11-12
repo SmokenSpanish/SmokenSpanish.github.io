@@ -1,6 +1,6 @@
 # Maksim Basov
 Playable Ads Developer / Frontend Developer — HTML5, Cocos Creator, TypeScript
-Moscow (UTC+3) · Remote · Open to B2B contract
+Bangkok, Thailand (UTC+7) · Remote · Open to B2B contract
 Portfolio: https://smokenspanish.github.io
 GitHub: https://github.com/SmokenSpanish
 Telegram: @SmokenSpanish · https://t.me/SmokenSpanish
