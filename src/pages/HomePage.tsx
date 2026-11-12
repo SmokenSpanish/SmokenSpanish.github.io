@@ -60,7 +60,7 @@ export function HomePage() {
           <p className="kicker">Contact</p>
           <h2 className="section__title">Email, Telegram, or a call</h2>
           <p className="section__lede">
-            Best way to reach me is email; Telegram and WhatsApp work too, and I am happy to set up a call. Based in Bangkok
+            Reach me by email, Telegram, or WhatsApp. Happy to set up a call. Based in Bangkok
             (UTC+7), working remotely with teams in Europe and Asia. {site.availability}.
           </p>
           <div className={styles.contact}>
