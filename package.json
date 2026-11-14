@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc --noEmit && vite build",
-    "build:pages": "tsc --noEmit && vite build --outDir docs --emptyOutDir",
+    "build": "tsc --noEmit && vite build && node scripts/prerender-routes.mjs dist",
+    "build:pages": "tsc --noEmit && vite build --outDir docs --emptyOutDir && node scripts/prerender-routes.mjs docs",
     "preview": "vite preview",
     "cv:pdf": "node scripts/build-cv-pdf.mjs"
   },
