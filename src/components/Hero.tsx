@@ -25,7 +25,7 @@ export function Hero() {
         <dl className={styles.facts}>
           <div className={styles.fact}>
             <b>~60 playables shipped</b>
-            <span>14 months · Cocos Creator · 2D and 3D</span>
+            <span>14 months · Cocos Creator, PixiJS · 2D and 3D</span>
           </div>
           <div className={styles.fact}>
             <b>5+ years commercial</b>

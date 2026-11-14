@@ -19,7 +19,7 @@ export function HomePage() {
           <p className="kicker">Selected playables</p>
           <h2 className="section__title">Production HTML5 builds, playable here</h2>
           <p className="section__lede">
-            Packed Cocos Creator playables served as HTML — 2D and 3D — plus one full HTML5 game. Click Play to
+            Packed Cocos Creator and PixiJS playables served as HTML — 2D and 3D — plus one full HTML5 game. Click Play to
             load the demo. No source archives, no download button.
           </p>
           {playables.map((playable) => (

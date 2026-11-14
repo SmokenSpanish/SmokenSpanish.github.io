@@ -1,5 +1,5 @@
 # Максим Басов
-Playable Ads Developer / Frontend-разработчик — HTML5, Cocos Creator, TypeScript
+Playable Ads Developer / Frontend-разработчик — HTML5, Cocos Creator, PixiJS, TypeScript
 Бангкок, Таиланд (UTC+7) · удалённо · готов работать по контракту (B2B)
 Почта: desertmax4@gmail.com
 Telegram: @SmokenSpanish · https://t.me/SmokenSpanish
@@ -11,7 +11,7 @@ GitHub: https://github.com/SmokenSpanish
 
 Разработчик с 5+ годами коммерческого опыта: 4 года продуктового фронтенда (React, Vue) и 14 месяцев HTML5 playable ads в Kourion Studio (Кипр, удалённо).
 
-За 14 месяцев выпустил около 60 коммерческих playable — до 10 в месяц — на Cocos Creator (TypeScript/JavaScript), 2D и 3D. Веду playable целиком: геймплей, физика, UI, анимация, ассеты, производительность и билды под рекламные сети. Рабочий черновик обычно собираю примерно за два дня.
+За 14 месяцев выпустил около 60 коммерческих playable — до 10 в месяц — на Cocos Creator и PixiJS (TypeScript/JavaScript), 2D и 3D. Веду playable целиком: геймплей, физика, UI, анимация, ассеты, производительность и билды под рекламные сети. Рабочий черновик обычно собираю примерно за два дня.
 
 До playable — коммерческие веб-приложения на React и Vue: адаптивный UI, клиентская логика, REST API, рефакторинг и поддержка.
 
@@ -23,7 +23,7 @@ AI-assisted development — часть рабочего процесса (пос
 
 **Рекламные сети:** AppLovin, Google, Mintegral, TikTok, Moloco, Facebook, Unity, ironSource
 
-**Игровые движки:** Cocos Creator 3.8 (основной рабочий инструмент), Godot / GDScript (личные проекты)
+**Движки и фреймворки:** Cocos Creator 3.8 и PixiJS 8 + GSAP (коммерческие playable), Godot / GDScript (личные проекты)
 
 **Frontend:** JavaScript, TypeScript, React, Vue, HTML, CSS/SCSS
 
@@ -40,7 +40,7 @@ AI-assisted development — часть рабочего процесса (пос
 сентябрь 2025 — настоящее время (14 месяцев)
 
 - Выпустил около 60 коммерческих HTML5 playable ads за 14 месяцев (до 10 в месяц), самостоятельно — от брифа до билда под рекламную сеть.
-- Делал 2D- и 3D-геймплей на Cocos Creator 3.8 и TypeScript: карточные и слот-механики, hidden object, доски-головоломки, ragdoll-физику, раннеры.
+- Делал 2D- и 3D-геймплей на Cocos Creator 3.8 (TypeScript) и PixiJS 8 с GSAP: карточные и слот-механики, crash-игры и башни, hidden object, доски-головоломки, ragdoll-физику, раннеры.
 - Собирал однофайловые билды под AppLovin, Google, Mintegral, TikTok, Moloco, Facebook, Unity и ironSource с учётом ограничений по размеру и API каждой сети.
 - Выпускал варианты на один клик, два клика и полную версию, рескины и локализации из одной кодовой базы через конфигурируемую сборку.
 - Черновик playable собираю примерно за два дня, затем довожу до production-билда.

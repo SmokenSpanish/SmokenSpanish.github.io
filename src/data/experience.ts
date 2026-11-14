@@ -17,7 +17,7 @@ export const experience: ExperienceItem[] = [
     role: 'Playable Ads Developer',
     bullets: [
       'Shipped around 60 commercial HTML5 playable ads in 14 months (up to 10 a month), working independently from brief to network-ready build.',
-      'Built 2D and 3D gameplay in Cocos Creator 3.8 with TypeScript: card and slot mechanics, hidden-object scenes, deduction boards, ragdoll physics, runners.',
+      'Built 2D and 3D gameplay in Cocos Creator 3.8 (TypeScript) and PixiJS 8 with GSAP: card and slot mechanics, crash and stacking games, hidden-object scenes, deduction boards, ragdoll physics, runners.',
       'Delivered single-file packed builds for AppLovin, Google, Mintegral, TikTok, Moloco, Facebook, Unity, and ironSource within the size and API requirements of each network.',
       'Produced one-tap, two-tap, and full variants, reskins, and localized versions from a single codebase through config-driven builds.',
       'Assemble a playable draft in about two days, then iterate to a production build.',

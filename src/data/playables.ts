@@ -94,6 +94,18 @@ export const playables: Playable[] = [
     dimension: '2d',
   },
   {
+    slug: 'tower-cars',
+    title: 'Tower Cars',
+    summary:
+      'Tower-building crash playable in PixiJS: drop floors onto the stack, raise the stake or cash out, then a bonus wheel, jackpot, and a car-prize packshot. Live-wins feed, camera punches, confetti, and money-fly effects; localized into English, German, French, and Dutch.',
+    mechanics: ['Stacking', 'Bet / cash out', 'Bonus wheel', 'Localization (4 languages)'],
+    technology: ['PixiJS 8', 'GSAP', 'JavaScript', 'HTML5'],
+    role: 'End-to-end implementation',
+    buildSizeMb: 4.52,
+    orientation: 'portrait',
+    dimension: '2d',
+  },
+  {
     slug: 'scoopy',
     title: 'Scoopy',
     summary:

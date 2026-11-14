@@ -1,5 +1,5 @@
 # Maksim Basov
-Playable Ads Developer / Frontend Developer — HTML5, Cocos Creator, TypeScript
+Playable Ads Developer / Frontend Developer — HTML5, Cocos Creator, PixiJS, TypeScript
 Bangkok, Thailand (UTC+7) · Remote · Open to B2B contract
 Email: desertmax4@gmail.com
 Telegram: @SmokenSpanish · https://t.me/SmokenSpanish
@@ -11,7 +11,7 @@ GitHub: https://github.com/SmokenSpanish
 
 Developer with 5+ years of commercial experience: 4 years of product frontend (React, Vue) and 14 months of HTML5 playable ads at Kourion Studio (Cyprus, remote).
 
-Shipped around 60 commercial playables in 14 months — up to 10 a month — in Cocos Creator (TypeScript/JavaScript), 2D and 3D. I own a playable end to end: gameplay, physics, UI, animation, assets, performance, and network-ready builds. A working draft usually takes about two days.
+Shipped around 60 commercial playables in 14 months — up to 10 a month — in Cocos Creator and PixiJS (TypeScript/JavaScript), 2D and 3D. I own a playable end to end: gameplay, physics, UI, animation, assets, performance, and network-ready builds. A working draft usually takes about two days.
 
 Before playables: production web applications in React and Vue — responsive UI, client logic, REST APIs, refactoring, and support.
 
@@ -23,7 +23,7 @@ AI-assisted development is part of my production workflow (task spec, faster imp
 
 **Ad networks:** AppLovin, Google, Mintegral, TikTok, Moloco, Facebook, Unity, ironSource
 
-**Game engines:** Cocos Creator 3.8 (main production tool), Godot / GDScript (personal projects)
+**Engines and frameworks:** Cocos Creator 3.8 and PixiJS 8 + GSAP (commercial playables), Godot / GDScript (personal projects)
 
 **Frontend:** JavaScript, TypeScript, React, Vue, HTML, CSS/SCSS
 
@@ -40,7 +40,7 @@ Cyprus · Remote
 September 2025 – Present (14 months)
 
 - Shipped around 60 commercial HTML5 playable ads in 14 months (up to 10 a month), working independently from brief to network-ready build.
-- Built 2D and 3D gameplay in Cocos Creator 3.8 with TypeScript: card and slot mechanics, hidden-object scenes, deduction boards, ragdoll physics, runners.
+- Built 2D and 3D gameplay in Cocos Creator 3.8 (TypeScript) and PixiJS 8 with GSAP: card and slot mechanics, crash and stacking games, hidden-object scenes, deduction boards, ragdoll physics, runners.
 - Delivered single-file packed builds for AppLovin, Google, Mintegral, TikTok, Moloco, Facebook, Unity, and ironSource within the size and API requirements of each network.
 - Produced one-tap, two-tap, and full variants, reskins, and localized versions from a single codebase through config-driven builds.
 - Assemble a playable draft in about two days, then iterate to a production build.

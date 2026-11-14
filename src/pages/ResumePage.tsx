@@ -41,8 +41,8 @@ export function ResumePage() {
             months of HTML5 playable ads at {site.studio} ({site.studioLocation}, remote).
           </p>
           <p>
-            Shipped around 60 commercial playables in 14 months — up to 10 a month — in Cocos Creator
-            (TypeScript/JavaScript), 2D and 3D. I own a playable end to end: gameplay, physics, UI, animation,
+            Shipped around 60 commercial playables in 14 months — up to 10 a month — in Cocos Creator and
+            PixiJS (TypeScript/JavaScript), 2D and 3D. I own a playable end to end: gameplay, physics, UI, animation,
             assets, performance, and network-ready builds. A working draft usually takes about two days.
           </p>
           <p>
@@ -61,7 +61,10 @@ export function ResumePage() {
             asset loading, single-file packed builds.
           </p>
           <p>Ad networks: AppLovin, Google, Mintegral, TikTok, Moloco, Facebook, Unity, ironSource.</p>
-          <p>Game engines: Cocos Creator 3.8 (main production tool), Godot / GDScript (personal projects).</p>
+          <p>
+            Engines and frameworks: Cocos Creator 3.8 and PixiJS 8 + GSAP (commercial playables), Godot / GDScript
+            (personal projects).
+          </p>
           <p>Frontend: JavaScript, TypeScript, React, Vue, HTML, CSS/SCSS.</p>
           <p>Tooling: Git, Webpack/Vite, Node.js build scripts, Figma.</p>
           <p>Markets: playables for Europe and Asia, localized copy and geo-aware currency.</p>
