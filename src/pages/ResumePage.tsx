@@ -23,6 +23,9 @@ export function ResumePage() {
             <a href={site.whatsappUrl} target="_blank" rel="noreferrer">
               WhatsApp
             </a>
+            <a href={site.linkedinUrl} target="_blank" rel="noreferrer">
+              LinkedIn
+            </a>
             <a href={site.githubUrl} target="_blank" rel="noreferrer">
               {site.githubLabel}
             </a>

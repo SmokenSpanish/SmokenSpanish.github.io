@@ -5,6 +5,7 @@ Playable Ads Developer / Frontend-разработчик — HTML5, Cocos Creato
 Telegram: @SmokenSpanish · https://t.me/SmokenSpanish
 [WhatsApp](https://wa.me/79859071865)
 Портфолио: https://smokenspanish.github.io
+LinkedIn: https://www.linkedin.com/in/maksim-basov-b5473744b/
 GitHub: https://github.com/SmokenSpanish
 
 ## О себе

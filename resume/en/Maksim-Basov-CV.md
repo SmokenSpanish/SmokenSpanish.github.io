@@ -5,6 +5,7 @@ Email: desertmax4@gmail.com
 Telegram: @SmokenSpanish · https://t.me/SmokenSpanish
 [WhatsApp](https://wa.me/79859071865)
 Portfolio: https://smokenspanish.github.io
+LinkedIn: https://www.linkedin.com/in/maksim-basov-b5473744b/
 GitHub: https://github.com/SmokenSpanish
 
 ## Summary

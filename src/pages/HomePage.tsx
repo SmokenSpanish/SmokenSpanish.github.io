@@ -77,6 +77,9 @@ export function HomePage() {
             <a className="btn btn--ghost" href={site.whatsappUrl} target="_blank" rel="noreferrer">
               WhatsApp
             </a>
+            <a className="btn btn--ghost" href={site.linkedinUrl} target="_blank" rel="noreferrer">
+              LinkedIn
+            </a>
             <a className="btn btn--ghost" href={site.githubUrl} target="_blank" rel="noreferrer">
               GitHub
             </a>
