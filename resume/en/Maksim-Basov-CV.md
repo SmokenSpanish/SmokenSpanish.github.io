@@ -10,13 +10,13 @@ GitHub: https://github.com/SmokenSpanish
 
 ## Summary
 
-Developer with 5+ years of commercial experience: 4 years of product frontend (React, Vue) and 14 months of HTML5 playable ads at Kourion Studio (Cyprus, remote).
+Developer with 5+ years of commercial experience: 4 years of product frontend (React, Vue) and 14 months of HTML5 playable ads at Gan-rep (Cyprus, remote).
 
-Shipped around 60 commercial playables in 14 months — up to 10 a month — in Cocos Creator and PixiJS (TypeScript/JavaScript), 2D and 3D. I own a playable end to end: gameplay, physics, UI, animation, assets, performance, and network-ready builds. A working draft usually takes about two days.
+Shipped around 60 commercial playables in 14 months — up to 10 a month — in Cocos Creator and PixiJS (TypeScript/JavaScript), 2D and 3D. I own a playable end to end: turning a game's core mechanic into an ad, gameplay, physics, UI, animation, assets, performance, and network-ready builds. Variants, reskins, and localizations come from reusable config-driven templates. A working draft usually takes about two days.
 
 Before playables: production web applications in React and Vue — responsive UI, client logic, REST APIs, refactoring, and support.
 
-AI-assisted development is part of my production workflow (task spec, faster implementation, review, debugging). Software development is the core skill.
+AI is part of my daily production workflow: AI-assisted development with Claude Code and Cursor (task spec, faster implementation, review, debugging) and AI image generation for playable assets. Software development is the core skill.
 
 ## Skills
 
@@ -28,7 +28,11 @@ AI-assisted development is part of my production workflow (task spec, faster imp
 
 **Frontend:** JavaScript, TypeScript, React, Vue, HTML, CSS/SCSS
 
-**Tooling:** Git, Webpack/Vite, Node.js build scripts, Figma
+**AI tools:** Claude Code, Cursor (development); AI image generation for backgrounds, items, and asset variations
+
+**3D and art:** Blender (preparing and adapting 3D assets for playables), Figma
+
+**Tooling:** Git, Webpack/Vite, Node.js build scripts
 
 **Markets:** playables for Europe and Asia, localized copy and geo-aware currency
 
@@ -36,16 +40,17 @@ AI-assisted development is part of my production workflow (task spec, faster imp
 
 ## Experience
 
-### Playable Ads Developer — Kourion Studio
+### Playable Ads Developer — Gan-rep
 Cyprus · Remote  
 September 2025 – Present (14 months)
 
 - Shipped around 60 commercial HTML5 playable ads in 14 months (up to 10 a month), working independently from brief to network-ready build.
 - Built 2D and 3D gameplay in Cocos Creator 3.8 (TypeScript) and PixiJS 8 with GSAP: card and slot mechanics, crash and stacking games, hidden-object scenes, deduction boards, ragdoll physics, runners.
 - Delivered single-file packed builds for AppLovin, Google, Mintegral, TikTok, Moloco, Facebook, Unity, and ironSource within the size and API requirements of each network.
-- Produced one-tap, two-tap, and full variants, reskins, and localized versions from a single codebase through config-driven builds.
+- Produced one-tap, two-tap, and full variants, reskins, and localized versions from a single codebase through config-driven templates.
+- Generated and iterated visual assets with AI image tools and prepared 3D models in Blender for lightweight 3D playables.
 - Assemble a playable draft in about two days, then iterate to a production build.
-- Use AI-assisted development to speed up implementation; architecture, debugging, and shipping stay in my hands.
+- Use AI-assisted development (Claude Code, Cursor) to speed up implementation; architecture, debugging, and shipping stay in my hands.
 
 ### Frontend Developer — Walnut Team
 walnut.team · Product company  

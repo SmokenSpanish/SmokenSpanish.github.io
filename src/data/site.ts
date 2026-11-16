@@ -10,7 +10,7 @@ export const site = {
   githubUrl: 'https://github.com/SmokenSpanish',
   githubLabel: 'github.com/SmokenSpanish',
   cvPdf: 'Maksim-Basov-CV.pdf',
-  studio: 'Kourion Studio',
+  studio: 'Gan-rep',
   studioLocation: 'Cyprus',
   location: 'Bangkok, Thailand (UTC+7) · Remote',
   availability: 'Open to B2B contract',

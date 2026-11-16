@@ -12,7 +12,7 @@ export const experience: ExperienceItem[] = [
   {
     start: 'Sep 2025',
     end: 'Present',
-    company: 'Kourion Studio',
+    company: 'Gan-rep',
     meta: 'Cyprus · Remote · 14 months',
     role: 'Playable Ads Developer',
     bullets: [
@@ -21,7 +21,8 @@ export const experience: ExperienceItem[] = [
       'Delivered single-file packed builds for AppLovin, Google, Mintegral, TikTok, Moloco, Facebook, Unity, and ironSource within the size and API requirements of each network.',
       'Produced one-tap, two-tap, and full variants, reskins, and localized versions from a single codebase through config-driven builds.',
       'Assemble a playable draft in about two days, then iterate to a production build.',
-      'Use AI-assisted development to speed up implementation; architecture, debugging, and shipping stay in my hands.',
+      'Generated and iterated visual assets with AI image tools and prepared 3D models in Blender for lightweight 3D playables.',
+      'Use AI-assisted development (Claude Code, Cursor) to speed up implementation; architecture, debugging, and shipping stay in my hands.',
     ],
   },
   {

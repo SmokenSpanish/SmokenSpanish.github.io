@@ -53,7 +53,8 @@ export function ResumePage() {
             APIs, refactoring, and support.
           </p>
           <p>
-            AI-assisted development is part of my production workflow. Software development is the core skill.
+            AI is part of my daily workflow: development with Claude Code and Cursor, and AI image generation for playable
+            assets. Software development is the core skill.
           </p>
         </section>
 
@@ -69,7 +70,9 @@ export function ResumePage() {
             (personal projects).
           </p>
           <p>Frontend: JavaScript, TypeScript, React, Vue, HTML, CSS/SCSS.</p>
-          <p>Tooling: Git, Webpack/Vite, Node.js build scripts, Figma.</p>
+          <p>AI tools: Claude Code, Cursor (development); AI image generation for backgrounds, items, and asset variations.</p>
+          <p>3D and art: Blender (preparing and adapting 3D assets for playables), Figma.</p>
+          <p>Tooling: Git, Webpack/Vite, Node.js build scripts.</p>
           <p>Markets: playables for Europe and Asia, localized copy and geo-aware currency.</p>
           <p>Languages: English — fluent. Russian — fluent.</p>
         </section>
