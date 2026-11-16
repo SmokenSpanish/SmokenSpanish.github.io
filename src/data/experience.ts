@@ -20,6 +20,7 @@ export const experience: ExperienceItem[] = [
       'Built 2D and 3D gameplay in Cocos Creator 3.8 (TypeScript) and PixiJS 8 with GSAP: card and slot mechanics, crash and stacking games, hidden-object scenes, deduction boards, ragdoll physics, runners.',
       'Delivered single-file packed builds for AppLovin, Google, Mintegral, TikTok, Moloco, Facebook, Unity, and ironSource within the size and API requirements of each network.',
       'Produced one-tap, two-tap, and full variants, reskins, and localized versions from a single codebase through config-driven builds.',
+      'Adapted playables into many languages, mainly for European markets: localized copy, text that fits every language, and currency per geo.',
       'Assemble a playable draft in about two days, then iterate to a production build.',
       'Generated and iterated visual assets with AI image tools and prepared 3D models in Blender for lightweight 3D playables.',
       'Use AI-assisted development (Claude Code, Cursor) to speed up implementation; architecture, debugging, and shipping stay in my hands.',

@@ -73,7 +73,9 @@ export function ResumePage() {
           <p>AI tools: Claude Code, Cursor (development); AI image generation for backgrounds, items, and asset variations.</p>
           <p>3D and art: Blender (preparing and adapting 3D assets for playables), Figma.</p>
           <p>Tooling: Git, Webpack/Vite, Node.js build scripts.</p>
-          <p>Markets: playables for Europe and Asia, localized copy and geo-aware currency.</p>
+          <p>
+            Markets and localization: mainly European markets, also Asia; playables adapted into many languages (English, German, French, Dutch, and more) with localized copy and geo-aware currency.
+          </p>
           <p>Languages: English — fluent. Russian — fluent.</p>
         </section>
 
