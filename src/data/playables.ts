@@ -70,6 +70,32 @@ export const playables: Playable[] = [
     dimension: '2d',
   },
   {
+    slug: 'scoopy',
+    title: 'Scoopy',
+    summary:
+      'A 3D game: dice interaction with a character in the scene, animation, UI scaling, and a staged endcard with packshot and store CTA.',
+    mechanics: ['3D scene', 'Dice interaction', 'Character animation', 'Endcard / packshot'],
+    technology: ['Cocos Creator 3.8', 'JavaScript', 'HTML5', '3D'],
+    role: 'End-to-end implementation',
+    buildSizeMb: 4.93,
+    orientation: 'portrait',
+    dimension: '3d',
+    featured: true,
+  },
+  {
+    slug: 'runner',
+    title: 'Runner',
+    summary:
+      'Full HTML5 game, not a playable ad: side-scrolling runner with jump, obstacles, collectibles, score, and a complete play loop.',
+    mechanics: ['Endless runner', 'Jump', 'Obstacles', 'Collectibles'],
+    technology: ['Cocos Creator 3.8', 'TypeScript', 'HTML5'],
+    role: 'End-to-end implementation',
+    buildSizeMb: 3.75,
+    orientation: 'landscape',
+    dimension: '2d',
+    kind: 'game',
+  },
+  {
     slug: 'pegfall',
     title: 'Pegfall',
     summary:
@@ -104,32 +130,6 @@ export const playables: Playable[] = [
     buildSizeMb: 4.52,
     orientation: 'portrait',
     dimension: '2d',
-  },
-  {
-    slug: 'scoopy',
-    title: 'Scoopy',
-    summary:
-      'A 3D game: dice interaction with a character in the scene, animation, UI scaling, and a staged endcard with packshot and store CTA.',
-    mechanics: ['3D scene', 'Dice interaction', 'Character animation', 'Endcard / packshot'],
-    technology: ['Cocos Creator 3.8', 'JavaScript', 'HTML5', '3D'],
-    role: 'End-to-end implementation',
-    buildSizeMb: 4.93,
-    orientation: 'portrait',
-    dimension: '3d',
-    featured: true,
-  },
-  {
-    slug: 'runner',
-    title: 'Runner',
-    summary:
-      'Full HTML5 game, not a playable ad: side-scrolling runner with jump, obstacles, collectibles, score, and a complete play loop.',
-    mechanics: ['Endless runner', 'Jump', 'Obstacles', 'Collectibles'],
-    technology: ['Cocos Creator 3.8', 'TypeScript', 'HTML5'],
-    role: 'End-to-end implementation',
-    buildSizeMb: 3.75,
-    orientation: 'landscape',
-    dimension: '2d',
-    kind: 'game',
   },
 ];
 
